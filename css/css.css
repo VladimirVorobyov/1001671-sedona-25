@@ -1,0 +1,20 @@
+.logo {
+  width: 140px;
+  height: 71px;
+  object-fit: contain;
+}
+.background-photo {
+  width: 1200px;
+  height: 773px;
+  object-fit: contain;
+  
+}
+.nav-back {
+    width: 239px;
+    height: 56px;
+  }
+  .welcome {
+    width: 459px;
+    height: 353px;
+    object-fit: contain;
+  }
