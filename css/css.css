@@ -1,7 +1,7 @@
 .logo {
   width: 140px;
   height: 71px;
-  object-fit: contain;
+  text-align: center;
 }
 .background-photo {
   width: 1200px;
@@ -17,4 +17,9 @@
     width: 459px;
     height: 353px;
     object-fit: contain;
+  }
+  .icon-back {
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
   }

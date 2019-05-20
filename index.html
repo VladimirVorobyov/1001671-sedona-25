@@ -8,7 +8,7 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-          <a><img src="img/logo.svg"> </a>
+          <a><img src="img/logo.svg" class="logo"> </a>
         <ul>
            <li ><a href="#">Информация</a></li>
            <li><a href="#">Фото и видео</a></li>
@@ -93,8 +93,34 @@
           и мы покажем вам лучшие предложения гостиниц в седоне
           </p>
        </section >  
-       <section>
-         <a href="hotels.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
+       
+<a href="hotels.html"><h3>поиск гостиницы в седоне</h3></a>
+
+<form method="POST" action="https://echo.htmlacademy">
+ <fieldset>
+   <label for="calandare"> Дата заезда:</label>
+    <input type="text" id="calandare" placeholder="24 апреля 2017">
+    <button>
+      <img src="img/calendar.svg" alt="Календарь">
+      </button>
+      <br>
+      <label>Дата выезда  <input type="text" placeholder="4 июля 2017"> </label>
+      <br>
+      <button>
+          <img src="img/calendar.svg" alt="Календарь">
+          </button>
+    <label>Взрослые: <input type="text" placeholder="- 2 +">   </label>
+    <label>Дети: <input type="text" placeholder="- 0 +">   </label>
+    <br>
+     <button type="submit" сlass="find" value="Найти">
+        Найти
+        </button>
+        
+    
+  </fieldset>    
+</form>
+       
+         
        </section>
     </main>
     <footer class="main-footer">
@@ -109,7 +135,7 @@
           </div>
           <p class="footer-copyright">
             <b>Разработано:</b> 
-            <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+            <a class="Academy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
           </p>      
      </footer>  
 
