@@ -20,14 +20,35 @@
        <main class="container-hotels">
      <section class="main-hotels">
               <img src="img/filter-background.jpg">
-
+     <form method="POST" action="https://echo.htmlacademy" oninput="sum.value=sum.value">
+      <div class="infrastructure">
+      <h3>Инфаструктура</h3>
+      <label><input type="checkbox" name="pool">Бассейн</label>
+      <label><input type="checkbox" name="parking">Парковка</label>
+      <label><input type="checkbox" name="wi-fi">Wi-Fi</label>
+    </div>
+    <div class="house">
+      <h3>Тип Жилья:</h3>
+      <label><input type="checkbox" name="hotel">Гостиница</label>
+      <label><input type="checkbox" name="motel">Мотель</label>
+      <label><input type="checkbox" name="apartments">Апартаменты</label>
+    </div>
+     <div class="prise-house">
+       <h3>Стоимость в сутки(Р):</h3>
+        <input type="range" min="0" max="3000" step="100"> 
+         <output name="sum"></output>
+     </div>
+     <button type="submit" сlass="show-house" value="Показать">
+        Показать
+        </button>
+     </form>
       </section>
      <div>
          <img src="img/hotel-picture.jpg">  
          <h3>Amara Resort & Spa</h3>
          <p>гостиница</p>
          <p>от 4000 Р.</p> 
-         <button>Подробнее</button> <button>Забронировать </button>
+         <a href="#">Подробнее</a> <a href="#">Забронировать</a>
          <p>Рейтинг:8,5</p>
      </div>
      <div>
@@ -35,14 +56,14 @@
             <h3>Desert Quail Inn</h3>
             <p>Мотель</p>
             <p>от 3000 Р.</p>
-            <button>Подробнее</button> <button>Забронировать </button>
+            <<a href="#">>Подробнее</a> <a href="#">Забронировать </a>
             <p>Рейтинг:8,9</p>
         </div>
         <div>
                 <img src="img/hotel-picture3.jpg">  
                 <h3>Villas at Poco Diablo</h3>
                 <p>Апартаменты</p> <p>от 2000 Р.</p>
-                <button>Подробнее</button> <button>Забронировать </button>
+                <a href="#">Подробнее</a> <a href="#">Забронировать</a>
                 <p>Рейтинг:9,2</p>
         </div>
    
@@ -52,9 +73,9 @@
             <div class="footer-social">
                 
                 <ul>
-                  <li><a class="social-button" href="https://twitter.com/?lang=ru"><img src="img/tw-icon.svg" class="icon-back"></a></li>
-                  <li><a class="social-button" href="https://www.facebook.com"><img src="img/fb-icon.svg" class="icon-back"></a></li>
-                  <li><a class="social-button" href="https://www.youtube.com/"><img src="img/youtube-icon.svg" class="icon-back"></a></li>
+                  <li><a class="social-button-twitter" href="https://twitter.com/?lang=ru"><img src="img/tw-icon.svg" class="icon-back" alt="twitter"></a></li>
+                  <li><a class="social-button-facebook" href="https://www.facebook.com"><img src="img/fb-icon.svg" class="icon-back"alt="facebook"></a></li>
+                  <li><a class="social-button-youtube" href="https://www.youtube.com/"><img src="img/youtube-icon.svg" class="icon-back" alt="youtube"></a></li>
                 </ul>
               </div>
               <p class="footer-copyright">
