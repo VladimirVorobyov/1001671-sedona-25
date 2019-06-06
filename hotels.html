@@ -3,15 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиницы</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-          <a><img src="img/logo.svg" href="index.html"> </a>
+      
         <ul>
-           <li ><a href="#">Информация</a></li>
+           <li><a href="#">Информация</a></li>
            <li><a href="#">Фото и видео</a></li>
+           <a><img src="img/logo.svg" href="index.html"> </a>
            <li><a href="#">Карта Штата</a></li>
            <li><a href="#">Гостиницы </a></li>
         </ul>
@@ -35,9 +39,17 @@
     </div>
      <div class="prise-house">
        <h3>Стоимость в сутки(Р):</h3>
+       <div class="money">
+       <input type="number" name="min-money" placeholder="от 0">
+       <input type="number" name="max-money" placeholder="до 3000">
+       </div>
+       <div class="scale-money">
         <input type="range" min="0" max="3000" step="100"> 
          <output name="sum"></output>
      </div>
+    </div>
+     </body>
+     </body>
      <button type="submit" сlass="show-house" value="Показать">
         Показать
         </button>

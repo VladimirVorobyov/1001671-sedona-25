@@ -3,17 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap&subset=cyrillic" rel="stylesheet">
+  
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
           <a><img src="img/logo.svg" class="logo"> </a>
         <ul>
-           <li ><a href="#">Информация</a></li>
-           <li><a href="#">Фото и видео</a></li>
-           <li><a href="#">Карта Штата</a></li>
-           <li><a href="hotels.html">Гостиницы </a></li>
+           <li class="information" ><a href="#">Информация</a></li>
+           <li class="photo"><a href="#">Фото и видео</a></li>
+           <li class="carta"><a href="#">Карта Штата</a></li>
+           <li class="house"><a href="hotels.html">Гостиницы </a></li>
         </ul>
       </nav>
      <section class="main-background">
@@ -23,38 +27,49 @@
     </header>
     <main class="container">
     <section class="features">
-        <h3>Седона — небольшой городок в Аризоне,
-            заслуживающий большего!</h3>
+      <div class="reasons">  
+      <h2 class="features-sedona">Седона — небольшой городок в Аризоне,
+      заслуживающий большего!</h2>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>
         <ul class="features-list">
           <li class="feature-item">
+           <div class="real_city">
             <h3>Настоящий городок</h3>
                <p>  — №1 —</p>
-               <p> Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-               <img src="img/feature-picture.jpg">
+               <p class="real_sedona"> Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div>
+               <img src="img/feature-picture.jpg" alt="Седона" class="img_life">
            </li>
            <li class="advantage">
+             <img src="img/icon-1.svg" alt="Дом">
             <h3>ЖИЛЬЕ</h3>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="advantage">
+            <img src="img/icon-3.svg" alt="Еда">
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="advantage">
+            <img src="img/icon-2.svg" alt="Подарок">
               <h3>Сувениры</h3>
               <p>Не только китайского, но и местного производства!</p>
           </li>
-          <li class="bridge-img"> 
-            <img src="img/layer-5.jpg">
-             <h3>Там есть<br>
+          <li > 
+            <img src="img/layer-5.jpg" class="bridge-img">
+            <div class="bridge-text"> 
+            <h3>Там есть<br>
                 Мост дьявола
             </h3>
             <p> — №2 —</p>
             <p>
-              Да, по нему можно пройти! Если конечно вы осмелитес
-            </p>
+              Да, по нему можно пройти! Если конечно вы осмелитесь
+             </p>
+             </div>
             </li>  
+          
+            <div  class="tourists-color">
           <li class="tourists">
             <h3>Небольшая
               площадь
@@ -83,7 +98,8 @@
             <p>Большинство едет в гранд каньон
                 и толпится там
             </p>
-          </li>
+            </li>
+          </div>
         </ul>
       </section>
       <section class="maps"> 
@@ -93,9 +109,11 @@
           и мы покажем вам лучшие предложения гостиниц в седоне
           </p>
        </section >  
-       
+       <div class="poisk">
 <a href="search.html"><h3>поиск гостиницы в седоне</h3></a>
-
+       </div>
+       <div class="basement">
+       <div class="poisk_form">
 <form method="POST" action="https://echo.htmlacademy">
  <fieldset>
      <label for="calandare"> Дата заезда:</label>
@@ -131,12 +149,16 @@
     
      <button type="submit" сlass="find" value="Найти">
             Найти
-         </button>  
-</form>
+
+          </button>  
+        </div>
+        </form>
+
        
          
        </section>
     </main>
+    <div class="footer-back">
     <footer class="main-footer">
         <h3>#visitSEDONA</h3>
         <div class="footer-social">
@@ -152,12 +174,12 @@
             <a class="academy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
           </p>      
      </footer>  
-
+     
   
-
+    </div>
     
 
 
-
+    </div>
   </body>
 </html>

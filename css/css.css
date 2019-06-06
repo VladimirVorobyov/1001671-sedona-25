@@ -1,28 +1,181 @@
-.logo {
-  width: 140px;
-  height: 71px;
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color:black;
+  text-transform: uppercase;
+  background-color:white;
   text-align: center;
 }
-.background-photo {
-  width: 1200px;
-  height: 773px;
-  object-fit: contain;
+
+a{
+  text-decoration: none;
+}
+.main-navigation ul {
+  list-style: none; 
+ }
+ 
+ .main-navigation a {
+  color:black;
+}
+
+.information {
+  float: left;
+  width: 20%;
+}
+.photo {
+  float: left;
+  width: 20%;
+}
+.logo {
+  margin-top: -50px; 
+  width: 140px;
+  height: 71px;
+  margin-bottom: -80px; 
+  text-align: center;
   
 }
+.carta {
+  float: right;
+ width: 20%; 
+}
+
+.main-background {
+color:black;
+background-color:#f2f2f28a;
+background-image:url("../img/polygon.svg"), 
+                 url("../img/background-photo.jpg") ;
+background-position: bottom center, center center;                 
+background-repeat: no-repeat;
+background-size: 100% auto, 100% auto; 
+}
+
+.features { 
+  margin-top: 50px; 
+}
+.features-list {
+  list-style: none; 
+ }
+ .reasons { 
+   margin-bottom: 50px;
+ }
+.real_city {
+  float: left;
+  background-color: #81b3d2;
+  color: white;
+  margin-left: auto;
+  width: 33.3333%;
+  height: 256px;
+
+}
+.features-sedona {
+max-width:440px;
+margin-left: auto;
+margin-right: auto; 
+}
+.real_sedona{
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.img_life {
+  margin: 0px;
+  width: 66.6666%;
+  height: 256px;
+  
+}
+
+.welcome { 
+  margin-left: -10px;
+  margin-top: 70px;
+  margin-bottom: 250px;
+  width: 459px;
+  height: 353px;
+}
+.advantage {
+  float: left;
+  max-width: 242px;
+  margin-top: 50px;
+  margin-right: 90px;
+  margin-left: 90px; 
+}
+
+
+
+
 .nav-back {
     width: 239px;
     height: 56px;
   }
-  .welcome {
-    width: 459px;
-    height: 353px;
-    object-fit: contain;
+  
   }
   .icon-back {
     width: 46px;
     height: 48px;
     background-color: #81b3d2;
   }
+
+  .bridge-img {
+    width: 66.6666%;
+  height: 256px;
+  }
+  .bridge-text {
+    font-family: 'PT Sans Narrow', sans-serif;
+    float: right;
+    background-color: #81b3d2;
+    color: white;
+    margin-left: auto;
+    width: 33.3333%;
+    height: 256px;  
+  }
+  .tourists {
+    
+    color: black;
+    float: left;
+   
+    max-width: 242px;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-left: 90px; 
+  }
+  .tourists-color {
+    background-color: #eeeeee;
+  }
+
+  .maps{
+    margin-top: 120px;
+      }
+   
+ .poisk { 
+   width: 568px;
+   height: 86px;
+   background-color: #766357;
+   margin: auto;
+   size:21px;
+   line-height: 26px;
+   }
+
+ .poisk a{
+ color:white;
+ }
+
+ .poisk_form{
+   width: 568px;
+   height: 395px;
+   margin: auto;
+   background: white;
+   }
+   
+.basement {  
+   background-image: url("../img/map.jpg") ;
+   
+  background-size:  100%,100%;
+  
+}
+
   .visually-hidden{
     position: absolute;
     width: 1px;
@@ -34,4 +187,28 @@
     overflow: hidden;
   }
 
+  .find {
+    color: white;
+    background-color: #81b3d2;
+    width: 458px;
+    height: 58px;
+  }
+   
+  .footer-back {
+    width: 1200px;
+    height: 120px;
+background-color: #f2f2f2;
+ opacity: 0.9;
+  }
+  .footer-social ul{
+    list-style: none; 
+
+  }
+  .social-button-twitter,
+  .social-button-facebook,
+  .social-button-youtube
+  { margin:10px;
+    float: left;
+    background-color: #81b3d2;
+    background-size:50px,50px;
   }
