@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/css.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
   
   </head>
   <body>
@@ -37,7 +38,7 @@
         <ul class="features-list">
           <li class="feature-item">
            <div class="real_city">
-            <h3>Настоящий городок</h3>
+            <h2>Настоящий городок</h2>
                <p>  — №1 —</p>
                <p class="real_sedona"> Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
@@ -47,26 +48,26 @@
            <ul class="advantage-top">
            <li class="advantage">
              <img src="img/icon-1.svg" alt="Дом" style="width:75px; height:72px;">
-            <h3>ЖИЛЬЕ</h3>
+            <h2>ЖИЛЬЕ</h2>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="advantage">
             <img src="img/icon-3.svg" alt="Еда" style="width:74px; height:70px;">
-            <h3>Еда</h3>
+            <h2>Еда</h2>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="advantage">
             <img src="img/icon-2.svg" alt="Подарок" style="width:74px; height:70px;">
-              <h3>Сувениры</h3>
+              <h2>Сувениры</h2>
               <p>Не только китайского, но и местного производства!</p>
           </li>
         </ul>
           <li class="bridge-img"> 
             <img src="img/layer-5.jpg"  style="width: 66.6666%; height: 256px;" alt="Мост">
             <div class="bridge-text"> 
-            <h3>Там есть<br>
+            <h2>Там есть<br>
                 Мост дьявола
-            </h3>
+            </h2>
             <p> — №2 —</p>
             <p>
               Да, по нему можно пройти! Если конечно вы осмелитесь
@@ -76,9 +77,9 @@
           
             <div  class="tourists-color">
           <li class="tourists">
-            <h3>Небольшая
+            <h2>Небольшая<br>
               площадь
-            </h3>
+            </h2>
               <p> — №3 —</p>
               <p>
               Все достопримечательности 
@@ -86,29 +87,29 @@
               </p>
           </li>
           <li class="tourists"> 
-            <h3>Красивая
-              дорога
-            </h3>  
+            <h2>Красивая<br> дорога
+            </h2>  
               <p>— №4 —</p>
               
               <p>Ехать в Седону из Лас-Вегаса совсем
               не скучно!
               </p>
           </li>
-          <li class="tourists">
-            <h3>Мало
-              туристов
-            </h3>  
-            <p> — №5 —<p>
-            <p>Большинство едет в гранд каньон
+          <li class="tourists"> 
+            <h2>Мало<br> туристов
+            </h2>  
+              <p>— №5 —</p>
+              
+              <p>Большинство едет в гранд каньон
                 и толпится там
-            </p>
-            </li>
+              </p>
+          </li>
+          
           </div>
         </ul>
       </section>
       <section class="maps"> 
-         <h2> Заинтересовались?</h2>
+         <h1> Заинтересовались?</h1>
           <p>
           Укажите предполагаемые даты поездки,<br> 
           и мы покажем вам лучшие предложения гостиниц в седоне
@@ -121,44 +122,50 @@
           <img src="img/map.jpg" style="width:1200px; height:593px;" alt="Карта">   
        <div class="search_form">
           
-<form method="POST" action="https://echo.htmlacademy">
- <fieldset>
-     <label for="calandare"> Дата заезда:</label>
-    <input type="text" id="calandare" placeholder="24 апреля 2017">
-    <button>
-      <img src="img/calendar.svg" alt="Календарь">
-      </button>
-      </fieldset>
-      <fieldset>
-      <label>Дата выезда  <input type="text" placeholder="4 июля 2017"> </label>
-      <br>
-      <button>
-          <img src="img/calendar.svg" alt="Календарь">
-          </button>
-          </fieldset>
-        <fieldset>
+<form method="POST" action="https://echo.htmlacademy"  >
+  <div class="arrival">  
+     <label for="calandare" > Дата заезда:</label>
+    
+     <input type="text" id="calandare" placeholder="24 апреля 2017" class="calendar">
+    
+      <img src="img/calendar.svg" alt="Календарь" class="calendar-img" >
+      
+    </div>
+    
+    
+      <div class="arrival">
+      <label for="calandare-end" class="form-label">Дата выезда:</label>
+       <input type="text"  id="calandare-end" placeholder="4 июля 2017" class="calendar2"> 
+    
+      
+          <img src="img/calendar.svg" alt="Календарь" class="calendar-img2">
+          
+        </div>
+        <div class="arrival">
 Взрослые:
-  <button>
-    -
+  <button class="minus">
+   - 
   </button>
-  <input type="text" placeholder="2"> 
-  <button>
-      +
+  <input type="text" placeholder="2" class="adults"> 
+  <button class="plus">
+    +  
     </button>  
-    <button>
-        -
-      </button>
-    Дети: <input type="text" placeholder=" 0 "> 
-    <button>
+    
+    Дети:
+    <button class="minus">
+      -
+    </button>
+     <input type="text" placeholder=" 0 " class="adults"> 
+    <button class="plus">
         +
       </button>
-  </fieldset>
-    
-     <button type="submit" сlass="find" value="Найти">
-            Найти
+    </div>
+    <div class="operate">
+     <button type="submit" сlass="find" value="Найти" >
+            <h2>НАЙТИ</h2>
 
           </button>  
-        </div>
+          </div>
         </form>
 
        
@@ -168,14 +175,14 @@
     <div class="footer-back">
     <footer >
         <ul class="main-footer">
-           <li class="visit"><h3>#visitSEDONA</h3></li>
+           <li class="visit"><h2>#visitSEDONA</h2></li>
       
             
-          
+           <div class="social-button">
             <li><a class="social-button-twitter" href="https://twitter.com/?lang=ru"><img src="img/tw-icon.svg" class="icon-back" alt="twitter"></a></li>
             <li><a class="social-button-facebook" href="https://www.facebook.com"><img src="img/fb-icon.svg" class="icon-back"alt="facebook"></a></li>
             <li><a class="social-button-youtube" href="https://www.youtube.com/"><img src="img/youtube-icon.svg" class="icon-back" alt="youtube"></a></li>
-          
+          </div>
        
           <li class="footer-copyright">
             <b>Разработано:</b> 
