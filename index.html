@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-          <a  href="#" class="logo" > <img src="img/logo.svg" style="width:140px;
+          <a  href="#" class="logo" > <img src="img/logo.svg" alt="Добро пожаловать" style="width:140px;
             height:71px;"></a>
         <ul>
            <li class="information" ><a href="#">Информация</a></li>
@@ -23,7 +24,7 @@
         </ul>
       </nav>
      <section class="main-background">
-              
+              <h1 class="visually-hidden">Добро пожаловать</h1>
               <img src="img/welcome.png" class="welcome"  alt="Седона" style="width: 459px;
                                                                               height:353px;">
       </section>
@@ -122,14 +123,14 @@
           <img src="img/map.jpg" style="width:1200px; height:593px;" alt="Карта">   
        <div class="search_form">
           
-<form method="POST" action="https://echo.htmlacademy"  >
+<form method="POST" action="https://echo.htmlacademy.ru"  >
   <div class="arrival">  
      <label for="calandare" > Дата заезда:</label>
     
      <input type="text" id="calandare" placeholder="24 апреля 2017" class="calendar">
-    
+       <button>
       <img src="img/calendar.svg" alt="Календарь" class="calendar-img" >
-      
+    </button>
     </div>
     
     
@@ -137,27 +138,27 @@
       <label for="calandare-end" class="form-label">Дата выезда:</label>
        <input type="text"  id="calandare-end" placeholder="4 июля 2017" class="calendar2"> 
     
-      
+      <button>
           <img src="img/calendar.svg" alt="Календарь" class="calendar-img2">
-          
+        </button>
         </div>
         <div class="arrival">
 Взрослые:
   <button class="minus">
-   - 
+  
   </button>
   <input type="text" placeholder="2" class="adults"> 
-  <button class="plus">
-    +  
+  <button class="plus ">
+  
     </button>  
     
     Дети:
-    <button class="minus">
-      -
+    <button class="minus2">
+    
     </button>
-     <input type="text" placeholder=" 0 " class="adults"> 
-    <button class="plus">
-        +
+     <input type="text" placeholder=" 0 " class="adults2"> 
+    <button class="plus2">
+      
       </button>
     </div>
   
