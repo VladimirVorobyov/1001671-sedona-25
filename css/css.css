@@ -755,7 +755,7 @@ padding-top:5px;
     margin-top:15px;
     color:#81b3d2;
   }
-  .found-type{
+  .foundtype{
   
     margin-left: 30px;
     margin-top:15px;
@@ -1001,13 +1001,13 @@ color: white;
  
   
 }
-.checkbox-label{
+.flag{
   position: relative;
   padding-left: 30px; 
 }
 
 
-.checkbox-label::before{
+.flag::before{
   content: '';
   position: absolute;
   left: 0;
@@ -1018,7 +1018,7 @@ color: white;
  
   
 }
-.checkbox-1:checked + .checkbox-label::before{
+.off-1:checked + .flag::before{
   background: url('../img/checkbox-off.svg');
 }
 .house-tipe  label{
