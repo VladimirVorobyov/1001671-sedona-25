@@ -25,18 +25,44 @@
        <main class="container-hotels">
      <section class="main-hotels">
               <img src="img/filter-background.jpg" style="width:1200px; height: 217px;" alt="Фон">
-     <form method="POST" action="https://echo.htmlacademy" oninput="sum.value=sum.value">
+     <form method="POST" action="https://echo.htmlacademy.ru" >
       <div class="infrastructure">
       <h3>Инфаструктура</h3>
-      <p><label><img src="img/checkbox-on.svg" width="27px" height="23px" class="checkbox-on">Бассейн</label></p>
-      <p><label><img src="img/checkbox-off.svg" width="27px" height="23px" class="checkbox-on">Парковка</label></p>
-      <p><label><img src="img/checkbox-off.svg" width="27px" height="23px" class="checkbox-on">Wi-Fi</label></p>
+      <p>
+          <input type="checkbox" class="visually-hidden" id="example" name="example" class="checkbox-1" checked>
+        <label for="example" class="checkbox-label">
+        
+          Бассейн
+        </label>
+      </p>
+      <p>
+          <input type="checkbox" class="visually-hidden" id="example1" name="example1" >
+        <label for="example1">
+        Парковка
+        </label>
+        </p>
+        <p>
+            <input type="checkbox" class="visually-hidden" id="example2" name="example2" >
+          <label for="example2">
+        Wi-Fi
+        </label></p>
     </div>
     <div class="house-tipe">
       <h3>Тип Жилья:</h3>
-      <p><label><img src="img/checkbox-on.svg" width="27px" height="23px" class="checkbox-on">Гостиница</label></p>
-      <p><label><img src="img/checkbox-on.svg" width="27px" height="23px" class="checkbox-on">Мотель</label></p>
-      <p><label><img src="img/checkbox-on.svg" width="27px" height="23px" class="checkbox-on">Апартаменты</label></p>
+      <p>
+          <input type="checkbox" class="visually-hidden" id="example3" name="example3" >
+          <label for="example3">
+        Гостиница
+      </label></p>
+      <p>
+          <input type="checkbox" class="visually-hidden" id="example4" name="example4" >
+          <label for="example4">
+        Мотель
+      </label></p>
+      <p>
+          <input type="checkbox" class="visually-hidden" id="example5" name="example5" >
+          <label for="example5">
+        Апартаменты</label></p>
     </div>
     <div class="filter-range">
       <div class="filter-range-title">Стоимость в сутки (р):</div>

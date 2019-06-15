@@ -12,9 +12,10 @@ body {
   text-transform: uppercase;
   background-color:white;
   text-align: center;
+  
 }
 
-.visually-hidden:not(:focus):not(:active){
+.visually-hidden{
 position: absolute;
 width: 1px;
 height: 1px;
@@ -719,14 +720,14 @@ padding-top:5px;
   .infrastructure{
     text-align: left;
     position: absolute;
-    top:65px;
+    top:80px;
     left: 147px;  
     max-width:150px;
     color:white; 
   }
   .house-tipe{
     position: absolute;
-    top:65px;
+    top:80px;
     left: 405px;  
     max-width:150px;
     color:white; 
@@ -802,9 +803,12 @@ padding-top:5px;
   .resort-img ul{
     list-style: none; 
     display: flex;
-    margin-left:-66px;
+    padding: 0; 
     margin-top: -4px; 
     
+}
+.resort-img li:first-child{
+  margin-left: 0; 
 }
 .resort-img li{
   margin-left:30px;
@@ -972,6 +976,68 @@ color: white;
  margin-right: 10px; 
  margin-bottom: 2px;  
 }
+
+
+
+.infrastructure label{
+  position: relative;
+  padding-left: 30px; 
+ 
+}
+
+
+.infrastructure label::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 23px; 
+  height: 23px;
+  background: url('../img/checkbox-off.svg');
+  
+}
+.infrastructure input:checked + label::before{
+  background: url('../img/checkbox-on.svg');
+ 
+  
+}
+.checkbox-label{
+  position: relative;
+  padding-left: 30px; 
+}
+
+
+.checkbox-label::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 23px; 
+  height: 23px;
+  background: url('../img/checkbox-on.svg');
+ 
+  
+}
+.checkbox-1:checked + .checkbox-label::before{
+  background: url('../img/checkbox-off.svg');
+}
+.house-tipe  label{
+  position: relative;
+  padding-left: 30px; 
+}
+.house-tipe label::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 23px; 
+  height: 23px;
+  background: url('../img/checkbox-on.svg');
+ 
+}
+.house-tipe input:checked + label::before{
+  background: url('../img/checkbox-off.svg');
+}
 .visisedona{
   border-top: 1px solid grey;  
 }
@@ -1038,12 +1104,18 @@ color: white;
 .stars{
   display: flex;
   list-style: none;
-  
+  margin: 0;
+  padding: 0; 
   
 }
 .stars-img{
-  margin-right: -40px; 
-  margin-left: -10px; 
+  margin: 0;
+  padding: 0; 
+}
+.stars li{
+  margin: 0;
+  padding: 0;
+  margin-left: 2px;  
 }
 .stars-1{
   position: absolute;
@@ -1107,3 +1179,4 @@ color: white;
   
  
 }
+
