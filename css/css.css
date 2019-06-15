@@ -15,6 +15,7 @@ body {
   
 }
 
+
 .visually-hidden{
 position: absolute;
 width: 1px;
@@ -46,14 +47,15 @@ h3{
 
 .information {
   width: 239px;
-  font-family: 'PT Sans-Bold', Arial, sans-serif;
+  font-weight: 700;
 
   
  
 }
 .photo {
 width: 239px;
-font-family: 'PT Sans-Bold', Arial, sans-serif;
+font-weight: 700;
+margin-left: 20px; 
 
   
 }
@@ -66,14 +68,14 @@ font-family: 'PT Sans-Bold', Arial, sans-serif;
 .carta {
   margin-left: 250px; 
  width: 239px;
- font-family: 'PT Sans-Bold', Arial, sans-serif;
+ font-weight: 700;
   
   
 }
 
 .house {
 width: 256px;
- font-family: 'PT Sans-Bold', Arial, sans-serif;
+font-weight: 700;
   
   
 }
@@ -136,7 +138,7 @@ background-size: 100% auto, 100% auto;
   line-height: 21px;
 }
 .real_city h2{
-  font-family: 'PT Sans-Bold', Arial, sans-serif;
+  font-weight: 700;
   max-width: 150px;
   margin-left: 130px;
   line-height: 21px;
@@ -144,10 +146,8 @@ background-size: 100% auto, 100% auto;
 }
 .real_city p{
   margin-top: 25px;
-  margin-left:40px;
-  max-width: 330px;
-  font-family: 'PT Sans-Regular', Arial, sans-serif;
-  line-height: 21px;
+  margin-left:47px;
+  max-width: 300px;
 }
 .advantage h3{
   font-weight: 700;
@@ -157,12 +157,12 @@ background-size: 100% auto, 100% auto;
 max-width:600px;
 margin-left: 300px;
 margin-right: auto;
-font-family: 'PT Sans-Bold', Arial, sans-serif;
-
+font-weight: 700;
+font-size: 21px; 
 }
 .reasons p{
   padding-top: 10px;
-  font-family: 'PT Sans-Regular', Arial, sans-serif;
+ 
   
 }
 .real_sedona{
@@ -186,16 +186,17 @@ font-family: 'PT Sans-Bold', Arial, sans-serif;
   
 }
 .advantage h2 {
-font-family: 'PT Sans-Bold', Arial, sans-serif;
+  font-weight: 700;
 line-height: 21px;
 padding-top:5px; 
 
 }
 .advantage p {
-  font-family: 'PT Sans-Regular', Arial, sans-serif;
+  
   line-height: 21px;
-  padding-top: 10px;
-  max-width: 320px;
+  padding-top:5px;
+  padding-left: 5px; 
+  max-width: 300px;
 }
 .advantage-top { 
   display: flex;
@@ -218,11 +219,7 @@ padding-top:5px;
   }
   
   
-  .icon-back {
-    width: 46px;
-    height: 48px;
-    background-color: #81b3d2;
-  }
+  
 
   .bridge-img {
     display: flex;
@@ -241,11 +238,15 @@ padding-top:5px;
     line-height: 21px;
     }
     .bridge-text p{
-     padding-top:5px;
+     padding-top:8px;
       max-width: 350px; 
       margin-left: auto;
       margin-right: auto; 
     
+    }
+    .bridge-text h2{
+      max-width: 172px;
+      margin-left: 110px; 
     }
   .tourists {
     
@@ -262,27 +263,37 @@ padding-top:5px;
   }
   
   .tourists h2{
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 21px; 
+    
   }
   .tourists p{
-    font-family: 'PT Sans-Regular',Arial, sans-serif;
-    padding-top: 5px;
+ 
+    padding-top: 10px;
+    
    
   }
 
   .tourists-color {
     display:flex;
     background-color: #eeeeee;
-
+    list-style: none;
+    margin-top:-15px;
+    padding: 0; 
   }
 
   .maps{
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
-    margin-top: 55px;
+   
+    margin-top: 57px;
       }
-
+  .maps h1{
+    font-weight: 700;
+    font-size:30px; 
+    line-height: 30px; 
+      }
+   
   .maps p{
-    font-family: 'PT Sans-Regular',Arial, sans-serif;
+    
     line-height: 24px;  
       padding-top:10px;
   }
@@ -291,18 +302,23 @@ padding-top:5px;
   .search a{
     
     display: block;
-    margin-top:50px;
+    margin-top:45px;
     margin-left: 317px;
     width: 568px;
     height: 65px;
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
+    
     color:white;
     padding-top: 10px;
     padding-bottom: 10px;
       background-color: #766357; 
     
-   line-height: 26px;
+  
     
+  }
+  .search h2{
+    font-size: 21px; 
+    line-height: 26px;
+    font-weight: 700;
   }
   .search a:active{
     display: block;
@@ -310,7 +326,7 @@ padding-top:5px;
     margin-left: 317px;
     width: 568px;
     height: 65px;
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
+    font-weight: 700; 
     color:white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -326,7 +342,7 @@ padding-top:5px;
     margin-left: 317px;
     width: 568px;
     height: 65px;
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
+    font-weight: 700; 
     color:white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -338,7 +354,7 @@ padding-top:5px;
  
   .arrival {
   
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
+    font-weight: 700; 
     line-height: 26px;
     font-weight: 700; 
    text-align: left;
@@ -354,8 +370,8 @@ padding-top:5px;
     width: 346px;
   height: 38px;
   background-color: #f2f2f2;
-  font-family: 'PT Sans-Bold', Arial, sans-serif;
-  font-weight: 700; 
+ 
+  
  
   }
   .calendar2{
@@ -365,7 +381,7 @@ padding-top:5px;
     width: 346px;
   height: 38px;
   background-color: #f2f2f2;
-  font-family: 'PT Sans-Bold', Arial, sans-serif;
+  
   font-weight: 700; 
   }
   .calendar:focus{
@@ -375,7 +391,7 @@ padding-top:5px;
     width: 346px;
   height: 38px;
   background-color: #f2f2f2;
-  font-family: 'PT Sans-Bold', Arial, sans-serif;
+ 
   font-weight: 700; 
  
   }
@@ -386,7 +402,7 @@ padding-top:5px;
     width: 346px;
   height: 38px;
   background-color: #f2f2f2;
-  font-family: 'PT Sans-Bold', Arial, sans-serif;
+  \
   font-weight: 700; 
   }
   .adults{
@@ -546,7 +562,12 @@ padding-top:5px;
     width: 456px; 
     background-color: #81b3d2;
     color: white;
+    font-size: 21px; 
   }
+
+   
+  }
+
   .operate:hover{
     margin-left:0px; 
     margin-top:20px; 
@@ -572,7 +593,7 @@ padding-top:5px;
    background: white;
    position: absolute;
    padding-top:50px;
-   font-family: 'PT Sans-Bold', Arial, sans-serif;
+   font-weight: 700; 
    
    }
    
@@ -584,117 +605,32 @@ padding-top:5px;
     height: 58px;
   }
   .main-footer{
-    list-style: none;
-    display: flex;
+  position: absolute;
+  top:475px;
+  left:-313px;
+
     height: 120px;
-    width: 1160px;
+    width: 1200px;
     background-color: #f2f2f2;
     opacity: 0.9;
-    margin-top: -125px;
-    
+  
+  }
+  .main-footer h2{ 
+    position: absolute;
+    top:30px;
+    left: 135px ;
   }
   
 
-  .footer-social ul{
-    list-style: none; 
-
-  }
-  .visit{
-    padding-left:80px;
-    padding-right: 132px;
-    padding-top:30px;
-    font-family: 'PT Sans-Bold', Arial, sans-serif;
-  }
+ 
   .social-button{
-    margin-left: 120px;
-  list-style: none;
-  }
-  
-  .social-button-youtube
-  { 
-    display: block;
-    padding: 15px;
-    width: 1px;
-    height: 1px;
-    color:white;
-    background-color: #81b3d2;
-    position: absolute;
-    top:2675px;
-    left: 700px;
-    
-    
-  }
-  .social-button-facebook{
-    display: block;
-    padding: 15px;
-    width: 15px;
-    height: 18px; 
-    
-    color:white;
-    background-color: #81b3d2;
-    position: absolute;
-    top:2675px;
-    left: 650px;
-    
-  
-  }
+ list-style: none; 
+ display: flex; 
+ margin-left: 470px;
+ margin-top:30px;  
 
-  .social-button-twitter{ 
-    display: block;
-    padding: 15px;
-    width: 15px;
-    height: 18px; 
-    color:white;
-    background-color: #81b3d2;
-    position: absolute;
-    top:2675px;
-    left: 600px;
   }
-  .social-button-youtube:hover
-  { 
-    display: block;
-    padding: 15px;
-    width: 16px;
-    height: 18px;
-    color:white;
-    background-color:#669ec0
-
-    ;
-    position: absolute;
-    top:2675px;
-    left: 700px;
-    
-    
-  }
-  .social-button-facebook:hover{
-    display: block;
-    padding: 15px;
-    width: 15px;
-    height: 18px; 
-    
-    color:white;
-    background-color: #669ec0;
-    position: absolute;
-    top:2675px;
-    left: 650px;
-    
-  
-  }
-  .footer-back{
-    width: 1200px; 
-  }
-
-  .social-button-twitter:hover{ 
-    display: block;
-    padding: 15px;
-    width: 15px;
-    height: 18px; 
-    color:white;
-    background-color: #669ec0;
-    position: absolute;
-    top:2675px;
-    left: 600px;
-  }
+ 
   
   .footer-copyright {
     margin-top: 45px;
@@ -705,13 +641,25 @@ padding-top:5px;
    }
    .footer-copyright a{
     position: absolute;
-    top:2680px;
-    left: 1060px;
+    top:40px;
+    left: 980px;
     
+   }
+   .footer-copyright b{
+    position: absolute;
+    top:45px;
+    left: 900px;
    }
 
   .main-footer h3{
     font-weight: 700;
+  }
+  .icon-back {
+    width: 20px;
+    height: 20px;
+    background-color: #81b3d2;
+    padding: 15px; 
+    margin: 3px; 
   }
 
 
@@ -724,18 +672,30 @@ padding-top:5px;
   .infrastructure{
     text-align: left;
     position: absolute;
-    top:80px;
+    top:70px;
     left: 147px;  
     max-width:150px;
     color:white; 
   }
+  .infrastructure h3{
+    margin-bottom: 20px; 
+  }
+  .infrastructure p{
+    margin-bottom: 25px; 
+  }
   .house-tipe{
     position: absolute;
-    top:80px;
+    top:70px;
     left: 405px;  
     max-width:150px;
     color:white; 
     text-align: left;
+  }
+  .house-tipe h3{
+    margin-bottom: 20px; 
+  }
+  .house-tipe p{
+    margin-bottom: 25px; 
   }
   .prise-house{
     position: absolute;
