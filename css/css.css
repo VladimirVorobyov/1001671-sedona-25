@@ -607,6 +607,7 @@ padding-top:5px;
   }
   .social-button{
     margin-left: 120px;
+  list-style: none;
   }
   
   .social-button-youtube
@@ -678,6 +679,9 @@ padding-top:5px;
     left: 650px;
     
   
+  }
+  .footer-back{
+    width: 1200px; 
   }
 
   .social-button-twitter:hover{ 
