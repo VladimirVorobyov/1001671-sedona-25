@@ -1052,9 +1052,8 @@ color: white;
 .youtube
 { 
   display: block;
-  padding: 15px;
-  width: 16px;
-  height: 18px;
+  
+ 
   color:white;
   background-color: #81b3d2;
   position: absolute;
@@ -1065,9 +1064,8 @@ color: white;
 }
 .facebook{
   display: block;
-  padding: 15px;
-  width: 15px;
-  height: 18px; 
+
+ 
   
   color:white;
   background-color: #81b3d2;
@@ -1080,9 +1078,8 @@ color: white;
 
 .twitter{ 
   display: block;
-  padding: 15px;
-  width: 15px;
-  height: 18px; 
+ 
+
   color:white;
   background-color: #81b3d2;
   position: absolute;
