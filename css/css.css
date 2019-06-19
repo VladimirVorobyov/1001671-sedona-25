@@ -415,24 +415,22 @@ h3 {
 	font-weight: 700;
 }
 
-.arrival b{
+.adutuls-b{
   
-  margin-left: 7px;
-  margin-top:-15px;  
 }
 .adults {
-	margin-left: 35px;
+	margin-left: 22px;
 	padding-left: 57px;
 	width: 57px;
 	height: 35px;
 	background-color: #f2f2f2;
 	font-weight: 700;
-	margin-right: 50px;
+	margin-right: 40px;
 }
 
 .adults2 {
-	margin-left: 28px;
-	padding-left: 43px;
+	margin-left: 5px;
+	padding-left: 57px;
 	width: 55px;
 	height: 35px;
 	background-color: #f2f2f2;
@@ -449,7 +447,7 @@ h3 {
 .calendar-img2 {
 	position: absolute;
 	left: 475px;
-	top: 130px;
+	top: 126px;
 }
 
 .minus {
