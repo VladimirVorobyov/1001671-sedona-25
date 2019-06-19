@@ -38,6 +38,7 @@ h3 {
 
 .main-header{
   overflow: hidden;
+  margin-top:3px; 
   
 }
 .main-navigation ul {
@@ -689,13 +690,13 @@ h3 {
 .infrastructure {
 	text-align: left;
 	margin-left: -1129px;
-	margin-top: 32px;
+	margin-top: 30px;
 	max-width: 150px;
 	color: white;
 }
 
 .infrastructure h3 {
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 	font-size: 17px;
 	font-weight: 700;
 }
@@ -710,14 +711,14 @@ h3 {
 .house-tipe {
 	text-align: left;
 	margin-left: -875px;
-	margin-top: -179px;
+	margin-top: -180px;
 	max-width: 150px;
 	color: white;
 	text-align: left;
 }
 
 .house-tipe h3 {
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 	font-size: 17px;
 	font-weight: 700;
 }
@@ -729,7 +730,7 @@ h3 {
 
 
 .found {
-	margin-bottom: 0px;
+	margin-bottom: 4px;
 	margin-left: 72px;
 }
 .found h2 {
@@ -738,13 +739,13 @@ h3 {
 	font-size: 21px;
 	font-weight: 700;
 	margin-left: 0px;
-	margin-top: 33px;
+	margin-top: 31px;
 }
 .found p {
 	display: block;
 	text-align: left;
 	margin-left: 163px;
-	margin-top: -34px;
+	margin-top: -38px;
 	font-size: 12px;
 }
 .money {
@@ -770,15 +771,19 @@ h3 {
 }
 .resort {
 	padding-left: 72px;
-	padding-top: 27px;
+	padding-top: 25px;
 	border-top: 1px solid grey;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	line-height: 21px;
 	text-align: left;
-	margin-top: 15px;
-	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-bottom: 15px; 
+	
+}
+.resort-img{
+	margin-bottom:0px; 
 }
 .resort-img h2 {
 	margin-left: 30px;
@@ -790,7 +795,7 @@ h3 {
 	display: -ms-flexbox;
 	display: flex;
 	padding-left: 30px;
-	margin-top: -5px;
+	margin-top: -6px;
 }
 .resort-img li:first-child {
   margin-left: 0px;
@@ -804,7 +809,8 @@ h3 {
   margin-left: 27px; 
 }
 .villas-mony{
-  margin-left: -17px; 
+  margin-left: -17px;
+  margin-top:-1px;  
 }
 .more {
 	padding: 5px 17px;
@@ -974,10 +980,14 @@ h3 {
 .infrastructure input:checked+label::before {
 	background: url('../img/checkbox-on.svg');
 }
+.container-hotels{
+	margin-top:3px; 
+}
 .flag {
 	position: relative;
   padding-left: 30px;
   margin-right:15px;
+  margin-top:5px; 
 }
 .flag::before {
 	content: '';
@@ -1029,8 +1039,8 @@ h3 {
 	margin-left: 2px;
 }
 .stars-1 {
-	margin-left: 800px;
-	margin-top:-105px;
+	margin-left: 805px;
+	margin-top:-100px;
 	text-align: right;
 }
 .icon {
