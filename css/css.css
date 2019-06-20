@@ -362,9 +362,7 @@ h3 {
 	margin-top: 9px;
 }
 
-.form-label {
-	padding-left
-}
+
 
 .calendar {
 	margin-left: 10px;
@@ -374,6 +372,7 @@ h3 {
 	background-color: #f2f2f2;
 	font-weight: 700;
 	color: #000000;
+	border: 2px solid #f2f2f2; 
 }
 
 .calendar2 {
@@ -384,6 +383,7 @@ h3 {
 	background-color: #f2f2f2;
 	font-weight: 700;
 	color: #000000;
+	border: 2px solid #f2f2f2; 
 }
 
 .calendar:focus {
@@ -391,8 +391,10 @@ h3 {
 	padding-left: 10px;
 	width: 330px;
 	height: 30px;
-	background-color: #f2f2f2;
+	background-color: #e5e5e5;
 	font-weight: 700;
+	background: #fff;
+	outline:none; 
 }
 
 .calendar2:focus {
@@ -400,8 +402,10 @@ h3 {
 	padding-left: 10px;
 	width: 330px;
 	height: 30px;
-	background-color: #f2f2f2;
+	background-color: #e5e5e5;
 	font-weight: 700;
+	background: #fff;
+	outline:none; 
 }
 
 .calendar-img {
@@ -437,48 +441,48 @@ h3 {
 	border-color: #ebebeb;
 }
 
-input#calandare-end:focus {
+.calandar:focus {
 	background: #fff;
 	outline: none;
 	border-color: #e5e5e5;
 }
 
-input#calandare-end:hover {
+.calandar:hover {
 	background: #ebebeb;
 	border-color: #ebebeb;
 }
 
-input#calandare-end {
+.calandar2 {
 	border: 2px solid #f2f2f2;
 }
 
-input#adults-label:focus {
+.adults:focus {
 	background: #fff;
 	outline: none;
 	border-color: #e5e5e5;
 }
 
-input#adults-label:hover {
+.adults:hover {
 	background: #ebebeb;
 	border-color: #ebebeb;
 }
 
-input#adults-label {
+.adults {
 	border: 2px solid #f2f2f2;
 }
 
-input#children:focus {
+.adults2:focus {
 	background: #fff;
 	outline: none;
 	border-color: #e5e5e5;
 }
 
-input#children:hover {
+.adults2:hover {
 	background: #ebebeb;
 	border-color: #ebebeb;
 }
 
-input#children {
+.children-1 {
 	border: 2px solid #f2f2f2;
 }
 
@@ -486,29 +490,33 @@ input#children {
 	background: #669ec0;
 	outline: none;
 	border-color: #669ec0;
+	color: white; 
+	
 }
 
 .operate:hover {
 	background: #5496bd;
 	border-color: #5496bd;
+	color: white; 
 }
 
 .operate {
 	border: 2px solid #81b3d2;
+	color: white;
 }
 
-input#calandare:focus {
+.calandar:focus {
 	background: #fff;
 	outline: none;
 	border-color: #e5e5e5;
 }
 
-input#calandare:hover {
+.calandar:hover {
 	background: #ebebeb;
 	border-color: #ebebeb;
 }
 
-input#calandare {
+.calandar {
 	border: 2px solid #f2f2f2;
 }
 
@@ -529,6 +537,7 @@ input#calandare {
 	height: 35px;
 	background-color: #f2f2f2;
 	font-weight: 700;
+	border: 2px solid #f2f2f2;
 }
 
 .minus {
@@ -660,11 +669,12 @@ input#calandare {
 .operate {
 	margin-left: 0px;
 	margin-top: 20px;
-	height: 58px;
+	height: 60px;
 	width: 456px;
 	background-color: #81b3d2;
 	color: white;
 	font-size: 21px;
+	font-weight: 700;
 }
 
 .operate:hover {
@@ -686,7 +696,7 @@ input#calandare {
 }
 
 .search_form {
-	display: block;
+	
 	width: 571px;
 	height: 350px;
 	margin-top: -600px;
@@ -697,8 +707,9 @@ input#calandare {
 	font-weight: 700;
 }
 
-.search_form--hidden {
-	display: none;
+.search_form--see {
+	display: none; 
+	
 }
 
 .find {
@@ -738,6 +749,8 @@ input#calandare {
 	margin-top: 13px;
 }
 
+	
+
 .footer-copyright {
 	margin-top: 17px;
 	display: flex;
@@ -765,7 +778,14 @@ input#calandare {
 	padding: 12px;
 	margin: 5px;
 }
+.icon-back:hover{
+	background: #669ec0;
 
+}
+.icon-back:focus{
+	background: 	#5496bd;
+	
+}
 .main-hotels {
 	display: flex;
 }
@@ -829,6 +849,7 @@ input#calandare {
 	margin-left: 163px;
 	margin-top: -38px;
 	font-size: 12px;
+	color:#81b3d2; 
 }
 
 .money {
@@ -837,14 +858,14 @@ input#calandare {
 }
 
 .foundtype {
-	color: black;
+	color: rgba(0, 0, 0, 0.3);
 	padding: 0px;
 	border-bottom: 1px dotted #81b3d2;
 }
 
 .found-rating {
 	margin-left: 34px;
-	color: black;
+	color: rgba(0, 0, 0, 0.3);
 	border-bottom: 1px dotted #81b3d2;
 }
 
@@ -1075,9 +1096,9 @@ input#calandare {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 23px;
+	width: 26px;
 	height: 23px;
-	background: url('../img/checkbox-off.svg');
+	background: url('../img/checkbox-off.svg') no-repeat; 
 }
 
 .infrastructure input:checked+label::before {
@@ -1100,13 +1121,13 @@ input#calandare {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 23px;
+	width: 26px;
 	height: 23px;
-	background: url('../img/checkbox-on.svg');
+	background: url('../img/checkbox-on.svg')  no-repeat;
 }
 
 .off-1:checked+.flag::before {
-	background: url('../img/checkbox-off.svg');
+	background: url('../img/checkbox-off.svg')  no-repeat;
 }
 
 .house-tipe label {
@@ -1119,13 +1140,13 @@ input#calandare {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 23px;
+	width: 26px;
 	height: 23px;
-	background: url('../img/checkbox-on.svg');
+	background: url('../img/checkbox-on.svg')  no-repeat;
 }
 
 .house-tipe input:checked+label::before {
-	background: url('../img/checkbox-off.svg');
+	background: url('../img/checkbox-off.svg')  no-repeat;
 }
 
 .stars {
@@ -1138,7 +1159,7 @@ input#calandare {
 	justify-content: flex-end;
 }
 
-.stars ul {}
+
 
 .stars-img {
 	margin: 0;
