@@ -99,7 +99,7 @@
             </h2>
                     <p>— №5 —</p>
 
-                    <p>Большинство едет в гранд каньон  и толпится там
+                    <p>Большинство едет в гранд каньон и толпится там
                     </p>
                 </li>
 
@@ -140,7 +140,6 @@
                     <div class="arrival">
                         <label for="adults-label" class="adutuls-b">Взрослые:</label>
 
-                        
                         <button class="minus">
 
                         </button>
@@ -191,7 +190,16 @@
         </div>
 
     </footer>
+    <script>
+        var link = document.querySelector(".search a");
+        var popup = document.querySelector(".search_form");
+        popup.classList.add('.search_form--hidden')
+        link.addEventListener("click", function(evt) {
+            evt.preventDefault();
+            popup.classList.toggle("search_form--hidden");
 
+        });
+    </script>
 </body>
 
 </html>
