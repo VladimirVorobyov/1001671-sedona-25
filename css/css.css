@@ -415,6 +415,12 @@ h3 {
 	border: none;
 	background-color: #f2f2f2;
 }
+.calendar-img:hover path{
+	fill: black; 
+}
+.calendar-img:active path{ 
+	fill:#81b3d2; 
+}
 
 .calendar-img2 {
 	position: absolute;
@@ -423,23 +429,16 @@ h3 {
 	border: none;
 	background-color: #f2f2f2;
 }
+.calendar-img2:active path{ 
+	fill:#81b3d2; 
 
-.calendar-img:focus {
-	background: #fff;
-	outline: none;
-	border-color: #e5e5e5;
+}
+.calendar-img2:hover path{
+	fill: black; 
+
 }
 
-.calendar-img2:focus {
-	background: #fff;
-	outline: none;
-	border-color: #e5e5e5;
-}
 
-.calendar-img2:hover {
-	background: #ebebeb;
-	border-color: #ebebeb;
-}
 
 .calandar:focus {
 	background: #fff;
@@ -962,10 +961,23 @@ border: none;
 	margin-bottom: 0px;
 }
 
-.resort-img h2 {
+.resort-img3{
+	display: block; 
 	margin-left: 30px;
-	margin-top: -2px;
+	padding-bottom: 10px; 
+	color: #000000; 
+	font-weight: 700;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 21px;
+	line-height: 26px;
 }
+.resort-img3:hover{
+	color: #81b3d2; 
+}
+.resort-img3:active{
+	color:rgba(0, 0, 0, 0.3);
+}
+
 
 .resort-img ul {
 	list-style: none;
@@ -1000,13 +1012,27 @@ border: none;
 	color: white;
 	margin-left: 30px;
 }
+.more:hover{
+ background:#669ec0; 
+}
+.more:active{
+	background: #5496bd;
+	color:rgba(255, 255, 255, 0.3);
+}
 
 .book-more {
 	padding: 5px 17px;
 	background: #766357;
 	color: white;
 }
+.book-more:hover{
+	background: #604e43;
 
+}
+.book-more:active{
+	background: #503e33;
+    color:rgba(255, 255, 255, 0.3);
+}
 .main-footer-hotel {
 	list-style: none;
 	display: -webkit-box;
@@ -1256,10 +1282,10 @@ border: none;
 	margin-bottom: 30px;
 }
 
-.icon-a:hover{
+.icon-img:hover path{
 	fill: #000000; 
 }
-.icon-a:active{
+.icon-img:active path{
 	fill:#81b3d2; 
 }
 .icon-margin {
