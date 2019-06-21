@@ -1358,3 +1358,6 @@ border: none;
 	padding-right: 0px;
 	text-align: center;
 }
+.search_form--hidden{
+	display: none; 
+}
