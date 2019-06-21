@@ -73,7 +73,7 @@ h3 {
 	margin-left: -70px;
 }
 
-.carta {
+.card {
 	margin-left: 96px;
 	width: 239px;
 	font-weight: 700;
@@ -785,6 +785,56 @@ h3 {
 .icon-back:focus{
 	background: 	#5496bd;
 	
+	
+}
+.icon-back:focus path {
+	fill:rgba(255, 255, 255, 0.3); 
+  }
+  
+  .social-button-twitter{
+	  display: block;
+   margin-top:4px;
+   padding: 14px;  
+   padding-top:15px; 
+
+  }
+  .social-button-facebook{
+	display: block;
+	margin-top:4px;
+	padding: 14px;
+	padding-bottom:15px;  
+	margin-left: -1px;
+  }
+  .social-button-youtube{
+	display: block;
+	margin-top:4px;
+	padding: 14px;  
+	margin-left: -1px;
+	padding-top:15px; 
+  }
+  
+
+
+	
+	
+}
+.academy{
+	width:115px; 
+	height:41px;
+
+}
+.academy path{
+	fill: #000000; 
+}
+
+.academy:focus path {
+	fill: #bdbbbc;
+  }
+  
+  .academy:hover path{
+	fill:#81b3d2;
+
+
 }
 .main-hotels {
 	display: flex;
