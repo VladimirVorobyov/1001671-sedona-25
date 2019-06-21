@@ -117,7 +117,7 @@
         </div>
         <div class="basement">
             <img src="img/map.jpg" width="1200" height="593" alt="Карта">
-            <div class="search_form--see">
+            <div class="search_form">
 
                 <form method="POST" action="https://echo.htmlacademy.ru">
                     <div class="arrival">
@@ -214,16 +214,17 @@
 
     </footer>
     <script>
-        var link = document.querySelector(".search a");
-        var popup = document.querySelector(".search_form--see");
-        
-        link.addEventListener("click", function(evt) {
-            evt.preventDefault();
-            popup.classList.add('search_form');
-           
-            popup.classList.toggle("search_form--see");
-
-        });
+            var link = document.querySelector(".search a");
+            var popup = document.querySelector(".search_form");
+            
+            popup.classList.remove("search_form");
+            link.addEventListener("click", function(evt) {
+                evt.preventDefault();
+                popup.classList.toggle('search_form--see');
+               
+               
+    
+            });
     </script>
 </body>
 
