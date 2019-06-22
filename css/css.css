@@ -917,7 +917,7 @@ h3 {
 }
 
 .found {
-	margin-bottom: 3px;
+	margin-bottom: 4px;
 	margin-left: 72px;
 }
 
@@ -991,7 +991,7 @@ h3 {
 	display: flex;
 	line-height: 21px;
 	text-align: left;
-	margin-top: 27px;
+	margin-top: 28px;
 	margin-bottom: -6px;
 }
 
@@ -1008,8 +1008,9 @@ h3 {
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 21px;
 	line-height: 26px;
-	margin-top: -3px;
+	margin-top: -2px;
 }
+
 
 .resort-img3:hover {
 	color: #81b3d2;
@@ -1026,6 +1027,7 @@ h3 {
 	display: flex;
 	padding-left: 30px;
 	margin-top: -2px;
+	margin-bottom: 7px; 
 }
 
 .resort-img li:first-child {
